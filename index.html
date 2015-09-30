@@ -1,23 +1,23 @@
 ---
-layout: default
+layout: site
 ---
+<section id='infoSearch'>
+	<h2>Choose your Pokemon!</h2>
 
-<div class="home">
+	<p>View Pokemon statistics to chose your Pokemon to bring to the arena.</p>
 
-  <h1 class="page-heading">Posts</h1>
+	<label for='firstPokemon'>Enter the name of your Pokemon here:
+	<input type='text' id='firstPokemon'></label>
+	<button>I choose you!</button>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section id='searchResult'>
+	<article class='pokemonCard'>
+		<div id="cardHeader">
+			<p id='pokemonName'></p><p id='hp'></p>
+		</div>
+		<div id='cardImage'></div>
+		<div id='stats'></div>
+		<div id='info'></div>
+	</article>
+</section>
