@@ -113,6 +113,15 @@ button {
 	text-shadow: -2px 2px #f2fb04;
 }
 
-#searchResult {
+#notFound {
+	color: red;
+}
 
+article#searchResult {
+	background: url(/finalProject/images/CardBackground.jpg);
+	width: 238px;
+	height: 333px;
+	border: 8px solid #f9fe10;
+	margin-left: auto;
+	margin-right: auto;
 }
