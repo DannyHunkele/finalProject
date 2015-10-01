@@ -18,7 +18,7 @@ $(function() {
 					}).success(function(pokemon) {
 						console.log('Here:' + pokemon.name);
 						$('#pokemonName').html(pokemon.name);
-						$('#hp').html(pokemon.hp);
+						$('#hp').html(pokemon.hp + ' HP');
 						$('#stats').html(' Height: ' + pokemon.height + ' Weight: ' + pokemon.weight);
 						$('#info').html('Attack: ' + pokemon.attack + '<br>Defense: ' + pokemon.defense + '<br>Happiness: ' + pokemon.happiness + '<br>Species: ' + pokemon.species);
 					});

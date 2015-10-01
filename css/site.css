@@ -72,9 +72,9 @@ h1 {
 
 section {
 	background-color: #e4dc5e;
+	padding: 30px;
 	margin: 30px;
 	box-shadow: -5px 5px 2px #000000;
-	padding: 10px;
 	text-align: center;
 	border-radius: 10px;
 }
@@ -82,7 +82,6 @@ section {
 #infoSearch h2 {
 	font-family: 'Sigmar One', cursive;
 	font-size: 30px;
-	padding: 5px;
 }
 
 #infoSearch p {
@@ -124,4 +123,49 @@ article#searchResult {
 	border: 8px solid #f9fe10;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: -5px 5px 2px #000000;
+	padding: 15px;
+}
+
+#cardHeader p {
+	display: inline-block;
+}
+
+#pokemonName {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+}
+
+#hp {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	float: right;
+}
+
+article#searchResult #cardImage {
+	clear: auto;
+	border: 6px solid #f9fe10;
+	background-color: #ffffff;
+	height: 135px;
+	box-shadow: -3px 3px 6px #000000;
+	margin-top: 30px;
+	margin-bottom: 8px;
+}
+
+#searchResult #stats {
+	padding: 3px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	background-color: #feb216;
+	margin-top: 8px;
+}
+
+#info {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-top: 25px;
 }
