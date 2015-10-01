@@ -70,7 +70,7 @@ h1 {
 	margin-right: auto;
 }
 
-#infoSearch {
+section {
 	background-color: #e4dc5e;
 	margin: 30px;
 	box-shadow: -5px 5px 2px #000000;
@@ -111,4 +111,8 @@ button {
 	font-size: 125%;
 	color: #0f1585;
 	text-shadow: -2px 2px #f2fb04;
+}
+
+#searchResult {
+
 }
